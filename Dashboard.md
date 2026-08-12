@@ -10,11 +10,12 @@
 ```meta-bind-button
 label: 🔥 오늘 기록 열기
 style: primary
-action:
-  type: command
-  command: 
+actions:
+  - type: command
+    command: daily-notes
 ```
 
+---
 ## 🚧 INFRA
 
 - [[02 Study/Infra/Network|🌐 Network]]
