@@ -1,5 +1,8 @@
 [
   "obsidian-git",
   "dataview",
-  "periodic-notes"
+  "periodic-notes",
+  "obsidian-meta-bind-plugin",
+  "tickticksync",
+  "obsidian-tasks-plugin"
 ]

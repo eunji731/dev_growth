@@ -1,0 +1,43 @@
+{
+  "baseURL": "ticktick.com",
+  "automaticSynchronizationInterval": 300,
+  "enableFullVaultSync": false,
+  "tagAndOr": 1,
+  "debugMode": false,
+  "logLevel": "info",
+  "journalRetentionDays": 3,
+  "deletedTaskRetentionDays": 7,
+  "SyncProject": "",
+  "SyncTag": "",
+  "defaultProjectId": "",
+  "defaultProjectName": "Inbox",
+  "TickTickTasksFilePath": "/",
+  "keepProjectFolders": true,
+  "syncNotes": true,
+  "noteDelimiter": "-------------------------------------------------------------",
+  "fileLinksInTickTick": "taskLink",
+  "taskLinksInObsidian": "taskLink",
+  "bkupFolder": "/",
+  "stopInjectingTickTickTag": false,
+  "stripTickTickTagOnReset": false,
+  "inboxID": null,
+  "inboxName": "Inbox",
+  "checkPoint": 0,
+  "skipBackup": false,
+  "vaultName": "dev-growth",
+  "taskDisplay": {
+    "reading": {
+      "link": "show",
+      "id": false,
+      "tag": true
+    },
+    "editing": {
+      "link": "show",
+      "id": true,
+      "tag": true
+    }
+  },
+  "devices": [],
+  "version": "2.0.5",
+  "token": null
+}
