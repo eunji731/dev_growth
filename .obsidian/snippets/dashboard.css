@@ -514,3 +514,90 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================
+   DASHBOARD COLOR REFRESH
+   ========================= */
+
+/* 상단 버튼 */
+.escape-dashboard .mb-button-group button {
+  background: #6f93a8 !important;
+  box-shadow: 0 3px 8px rgba(0,0,0,.08) !important;
+}
+
+.escape-dashboard .mb-button-group button:hover {
+  background: #5f859b !important;
+  transform: translateY(-1px);
+}
+/* THIS WEEK 공통 */
+.weekly-simple-card {
+  border: none !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,.04);
+}
+
+/* 목표 */
+.weekly-simple-card:nth-child(1) {
+  background: #eef6ff !important;
+}
+
+/* 성과 */
+.weekly-simple-card:nth-child(2) {
+  background: #f1f8ef !important;
+}
+
+/* 막힌 것 */
+.weekly-simple-card:nth-child(3) {
+  background: #fff4ed !important;
+}
+
+/* Growth 전체 카드 */
+.growth-box {
+  background: #fafbff !important;
+}
+
+/* Growth 내부 숫자 카드 */
+.growth-stat:nth-child(1) {
+  background: #eef4ff !important;
+}
+
+.growth-stat:nth-child(2) {
+  background: #fff3e8 !important;
+}
+
+.growth-stat:nth-child(3) {
+  background: #fff0f3 !important;
+}
+
+.growth-stat:nth-child(4) {
+  background: #eef8f2 !important;
+}
+
+.growth-stat {
+  border: none !important;
+}
+
+/* 잔디 */
+.growth-cell.level-0 {
+  background: #e8ebef !important;
+}
+
+.growth-cell.level-1 {
+  background: #d7e8df !important;
+}
+
+.growth-cell.level-2 {
+  background: #acd0bb !important;
+}
+
+.growth-cell.level-3 {
+  background: #75ad8d !important;
+}
+
+.growth-cell.level-4 {
+  background: #478565 !important;
+}
+
+.escape-dashboard h2 {
+  margin-top: 28px !important;
+  margin-bottom: 14px !important;
+}
