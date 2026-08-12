@@ -1,0 +1,41 @@
+== Added by TickTickSync -- 2.0.5 == 
+- [ ] 리눅스 강의  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc756f703405bd86461b3) #ticktick %%[ticktick_id:: 6a7bc756f703405bd86461b3]%%
+	- [ ] 리눅스 [1. 리눅스 소개 및 설치]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd8646188) #ticktick %%[ticktick_id:: 6a7bc753f703405bd8646188]%%
+	- [ ] 리눅스 [2. 강의 자료]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd8646189) #ticktick %%[ticktick_id:: 6a7bc753f703405bd8646189]%%
+	- [ ] 리눅스 [4. Docker Desktop을 설치해보자 - Windows]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd864618a) #ticktick %%[ticktick_id:: 6a7bc753f703405bd864618a]%%
+	- [ ] 리눅스 [5. Linux 배경 지식 몇 가지에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd864618b) #ticktick %%[ticktick_id:: 6a7bc753f703405bd864618b]%%
+	- [ ] 리눅스 [6. Top Level 디렉토리 구조에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd864618c) #ticktick %%[ticktick_id:: 6a7bc753f703405bd864618c]%%
+	- [ ] 리눅스 [7. 기본적인 명령어들을 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd864618d) #ticktick %%[ticktick_id:: 6a7bc753f703405bd864618d]%%
+	- [ ] 리눅스 [8. Visual Editor(vi) 사용 방법에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd864618e) #ticktick %%[ticktick_id:: 6a7bc753f703405bd864618e]%%
+	- [ ] 리눅스 [9. crontab 명령어에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd864618f) #ticktick %%[ticktick_id:: 6a7bc753f703405bd864618f]%%
+	- [ ] 리눅스 [10. 파일/디렉토리 퍼미션 바꾸기]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd8646190) #ticktick %%[ticktick_id:: 6a7bc753f703405bd8646190]%%
+	- [ ] 리눅스 [11. environment 변수에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd8646191) #ticktick %%[ticktick_id:: 6a7bc753f703405bd8646191]%%
+	- [ ] 리눅스 [12. SSH에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd8646192) #ticktick %%[ticktick_id:: 6a7bc753f703405bd8646192]%%
+	- [ ] 리눅스 [13. Pipes에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd8646193) #ticktick %%[ticktick_id:: 6a7bc753f703405bd8646193]%%
+	- [ ] 리눅스 [14. grep(Global Regular Expression Print) 명령어에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd8646194) #ticktick %%[ticktick_id:: 6a7bc753f703405bd8646194]%%
+	- [ ] 리눅스 [15. wc 명령어에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd8646195) #ticktick %%[ticktick_id:: 6a7bc753f703405bd8646195]%%
+	- [ ] 리눅스 [16. head와 tail 명령어에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd8646196) #ticktick %%[ticktick_id:: 6a7bc753f703405bd8646196]%%
+	- [ ] 리눅스 [17. diff와 cmp 명령어에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd8646197) #ticktick %%[ticktick_id:: 6a7bc753f703405bd8646197]%%
+	- [ ] 리눅스 [18. sort와 uniq 명령어에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd8646198) #ticktick %%[ticktick_id:: 6a7bc753f703405bd8646198]%%
+	- [ ] 리눅스 [19. sed(Stream Editor) 명령어에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd8646199) #ticktick %%[ticktick_id:: 6a7bc753f703405bd8646199]%%
+	- [ ] 리눅스 [20. awk 명령어에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd864619a) #ticktick %%[ticktick_id:: 6a7bc753f703405bd864619a]%%
+	- [ ] 리눅스 [21. 파일 압축하는 방법에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd864619b) #ticktick %%[ticktick_id:: 6a7bc753f703405bd864619b]%%
+	- [ ] 리눅스 [22. 잠깐의 공지사항]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd864619c) #ticktick %%[ticktick_id:: 6a7bc753f703405bd864619c]%%
+	- [ ] 리눅스 [23. 실시간 리소스 모니터 - top 명령어에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd864619d) #ticktick %%[ticktick_id:: 6a7bc753f703405bd864619d]%%
+	- [ ] 리눅스 [24. 리눅스의 7가지 파일 타입에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd864619e) #ticktick %%[ticktick_id:: 6a7bc753f703405bd864619e]%%
+	- [ ] 리눅스 [25. ps(Process Status) 명령어에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd864619f) #ticktick %%[ticktick_id:: 6a7bc753f703405bd864619f]%%
+	- [ ] 리눅스 [26. Soft and Hard link (ft. inodes)]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461a0) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461a0]%%
+	- [ ] 리눅스 [27. Signal number와 Wild Cards(*, ?, ^, [])에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461a1) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461a1]%%
+	- [ ] 리눅스 [28. du(Disk Usage)와 df(Disk Free) 명령어에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461a2) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461a2]%%
+	- [ ] 리눅스 [29. apt(Advanced Package Tool)에 대해 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461a3) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461a3]%%
+	- [ ] 리눅스 [30. uptime 명령어에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461a4) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461a4]%%
+	- [ ] 리눅스 [31. curl과 wget을 사용해서 파일을 다운 받아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461a5) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461a5]%%
+	- [ ] 리눅스 [32. nslookup과 dig 명령어에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461a6) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461a6]%%
+	- [ ] 리눅스 [33. ntp와 chronyd]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461a7) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461a7]%%
+	- [ ] 리눅스 [34. ping 명령어에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461a8) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461a8]%%
+	- [ ] 리눅스 [35. traceroute]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461a9) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461a9]%%
+	- [ ] 리눅스 [36. netstat 명령어에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461aa) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461aa]%%
+	- [ ] 리눅스 [37. jq 사용법에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461ab) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461ab]%%
+	- [ ] 리눅스 [38. Bash Shell Script 소개]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461ac) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461ac]%%
+	- [ ] 리눅스 [39. Bash Shell 문법에 대해서 알아보자]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461ad) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461ad]%%
+	- [ ] 리눅스 [40. 정말 수고 많으셨습니다]  [link](https://ticktick.com/webapp/#p/inbox133105814/tasks/6a7bc753f703405bd86461ae) #ticktick %%[ticktick_id:: 6a7bc753f703405bd86461ae]%%
