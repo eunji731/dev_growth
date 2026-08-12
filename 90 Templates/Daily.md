@@ -5,7 +5,6 @@ study_minutes: 0
 study_area: []
 coding_test: false
 ---
-
 # 📅 {{date:YYYY-MM-DD}}
 
 ## ✅ 오늘 한 것

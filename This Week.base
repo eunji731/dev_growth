@@ -1,0 +1,20 @@
+formulas:
+  무제: ""
+views:
+  - type: table
+    name: 표
+    filters:
+      and:
+        - file.inFolder("01 Daily")
+        - date >= today() - "6d"
+    order:
+      - file.name
+      - study_minutes
+      - study_area
+      - coding_test
+    sort:
+      - property: study_minutes
+        direction: DESC
+    summaries:
+      study_minutes: Sum
+      coding_test: Checked

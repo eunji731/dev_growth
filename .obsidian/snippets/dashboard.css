@@ -1,0 +1,145 @@
+/* =========================
+   GROWTH
+   ========================= */
+
+.growth-box {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 22px;
+  margin: 10px 0 28px;
+
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 16px;
+}
+
+/* 상단 */
+.growth-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 18px;
+}
+
+.growth-eyebrow {
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+
+.growth-range {
+  margin-top: 4px;
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+.growth-streak {
+  font-size: 0.9em;
+  color: var(--text-muted);
+}
+
+.growth-streak strong {
+  font-size: 1.5em;
+  color: var(--text-normal);
+}
+
+/* 숫자 4개 */
+.growth-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.growth-stat {
+  padding: 14px;
+
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 11px;
+}
+
+.growth-label {
+  font-size: 0.76em;
+  color: var(--text-muted);
+  margin-bottom: 7px;
+}
+
+.growth-value {
+  font-size: 1.55em;
+  font-weight: 700;
+}
+
+/* 공부 분야 */
+.growth-areas {
+  margin-top: 12px;
+  font-size: 0.8em;
+  color: var(--text-muted);
+}
+
+/* 잔디 */
+.growth-heat-title {
+  margin-top: 22px;
+  margin-bottom: 9px;
+
+  font-size: 0.75em;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.growth-heatmap-new {
+  display: grid;
+  grid-template-columns: repeat(35, 1fr);
+  gap: 5px;
+}
+
+.growth-cell {
+  aspect-ratio: 1 / 1;
+  max-width: 18px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.growth-cell.level-0 {
+  background: var(--background-modifier-border);
+}
+
+.growth-cell.level-1 {
+  background: color-mix(
+    in srgb,
+    var(--interactive-accent) 25%,
+    var(--background-primary)
+  );
+}
+
+.growth-cell.level-2 {
+  background: color-mix(
+    in srgb,
+    var(--interactive-accent) 45%,
+    var(--background-primary)
+  );
+}
+
+.growth-cell.level-3 {
+  background: color-mix(
+    in srgb,
+    var(--interactive-accent) 70%,
+    var(--background-primary)
+  );
+}
+
+.growth-cell.level-4 {
+  background: var(--interactive-accent);
+}
+
+@media (max-width: 700px) {
+  .growth-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .growth-heatmap-new {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}

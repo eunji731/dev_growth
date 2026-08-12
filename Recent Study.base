@@ -5,8 +5,6 @@ views:
       and:
         - file.inFolder("02 Study")
     sort:
-      - property: file.name
-        direction: ASC
       - property: file.mtime
         direction: DESC
     limit: 10
@@ -17,3 +15,9 @@ views:
         - file.inFolder("02 Study")
     markers: none
     indentProperties: false
+  - type: cards
+    name: 카드
+    filters:
+      and:
+        - file.inFolder("02 Study")
+    cardSize: 140
