@@ -502,3 +502,18 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Meta Bind 버튼 그룹 - 각각 독립된 둥근 버튼으로 */
+.escape-dashboard .mb-button-group {
+  display: inline-flex !important;
+  gap: 10px !important;
+}
+
+/* 그룹 스타일이 모서리를 깎는 것 강제 무효화 */
+.escape-dashboard .mb-button-group button,
+.escape-dashboard .mb-button-group button:first-child,
+.escape-dashboard .mb-button-group button:last-child,
+.escape-dashboard .mb-button-group button:not(:first-child):not(:last-child) {
+  border-radius: 9px !important;
+  margin: 0 !important;
+}

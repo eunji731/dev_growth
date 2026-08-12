@@ -2,17 +2,36 @@
 cssclasses:
   - escape-dashboard
 ---
+
 # 🏠 ESCAPE HQ
 
-> [!hero] ESCAPE PROJECT
-> **개발 성장 기록**
-> 실행은 TickTick, 기록과 지식은 여기에서 관리합니다.
+> 실행은 **TickTick**, 기록과 지식은 **Obsidian**
+
+`BUTTON[daily-open, weekly-open]`
 ```meta-bind-button
 label: 🔥 오늘 기록 열기
 style: primary
+id: daily-open
+hidden: true
+
 actions:
   - type: command
     command: daily-notes
+```
+```meta-bind-button
+label: 📅 이번 주 열기
+icon: ""
+style: primary
+class: ""
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: weekly-open
+hidden: true
+actions:
+  - type: command
+    command: periodic-notes:open-weekly-note
+
 ```
 
 ## 🎯 CURRENT FOCUS
