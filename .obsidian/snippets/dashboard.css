@@ -404,21 +404,7 @@
   margin-bottom: 30px;
 }
 
-.weekly-focus {
-  padding: 20px;
-  border-radius: 16px;
-  border: 1px solid var(--background-modifier-border);
-  background:
-    linear-gradient(
-      135deg,
-      color-mix(
-        in srgb,
-        var(--interactive-accent) 7%,
-        var(--background-secondary)
-      ),
-      var(--background-secondary)
-    );
-}
+
 
 .weekly-eyebrow {
   margin-bottom: 14px;
@@ -428,43 +414,6 @@
   letter-spacing: 0.1em;
 }
 
-.weekly-focus-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
-}
-
-.weekly-focus-card {
-  position: relative;
-  padding: 15px;
-  border-radius: 11px;
-  background: var(--background-primary);
-  border: 1px solid var(--background-modifier-border);
-}
-
-.weekly-focus-name {
-  font-size: 1.05em;
-  font-weight: 700;
-}
-
-.weekly-focus-current {
-  margin-top: 6px;
-  font-size: 0.83em;
-  color: var(--text-muted);
-}
-
-.weekly-focus-status {
-  position: absolute;
-  top: 14px;
-  right: 14px;
-
-  padding: 3px 8px;
-  border-radius: 999px;
-
-  font-size: 0.68em;
-  color: var(--text-muted);
-  background: var(--background-secondary);
-}
 
 .weekly-bottom {
   display: grid;
@@ -516,4 +465,52 @@
 .escape-dashboard .mb-button-group button:not(:first-child):not(:last-child) {
   border-radius: 9px !important;
   margin: 0 !important;
+}
+
+/* =========================
+   WEEKLY
+   ========================= */
+
+.weekly-simple-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.weekly-simple-card {
+  min-height: 120px;
+  padding: 18px;
+
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  background: var(--background-secondary);
+}
+
+.weekly-simple-title {
+  margin-bottom: 12px;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+
+.weekly-simple-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.weekly-simple-card li {
+  margin: 6px 0;
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+.weekly-simple-empty {
+  font-size: 0.82em;
+  color: var(--text-faint);
+}
+
+@media (max-width: 800px) {
+  .weekly-simple-grid {
+    grid-template-columns: 1fr;
+  }
 }

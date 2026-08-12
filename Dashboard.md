@@ -34,7 +34,7 @@ actions:
 
 ```
 
-## 🎯 CURRENT FOCUS
+## 🎯 THIS WEEK
 
 ```dataviewjs
 const weeks = dv.pages('"05 Weekly"')
@@ -48,86 +48,52 @@ if (!weeks.length) {
     const w = weeks[0];
 
     const root = document.createElement("div");
-    root.className = "weekly-board";
+    root.className = "weekly-simple-grid";
     dv.container.appendChild(root);
 
-    // 현재 집중 영역
-    const focusPanel = document.createElement("div");
-    focusPanel.className = "weekly-focus";
+    function panel(icon, title, values, cls) {
+        const box = document.createElement("div");
+        box.className = `weekly-simple-card ${cls}`;
 
-    const focusTitle = document.createElement("div");
-    focusTitle.className = "weekly-eyebrow";
-    focusTitle.textContent = "CURRENT FOCUS";
-    focusPanel.appendChild(focusTitle);
-
-    const focusGrid = document.createElement("div");
-    focusGrid.className = "weekly-focus-grid";
-
-    const focuses = w.focus
-        ? (Array.isArray(w.focus) ? w.focus : [w.focus])
-        : [];
-
-    for (const item of focuses) {
-        const [name = "", status = "", current = ""] =
-            String(item).split("|").map(v => v.trim());
-
-        const card = document.createElement("div");
-        card.className = "weekly-focus-card";
-
-        card.innerHTML = `
-            <div class="weekly-focus-name">${name}</div>
-            <div class="weekly-focus-current">${current}</div>
-            <div class="weekly-focus-status">${status}</div>
-        `;
-
-        focusGrid.appendChild(card);
-    }
-
-    focusPanel.appendChild(focusGrid);
-    root.appendChild(focusPanel);
-
-    // 아래 3영역
-    const bottom = document.createElement("div");
-    bottom.className = "weekly-bottom";
-
-    function makeList(title, icon, values, cls) {
-        const panel = document.createElement("div");
-        panel.className = `weekly-list-panel ${cls}`;
-
-        const heading = document.createElement("div");
-        heading.className = "weekly-list-title";
-        heading.textContent = `${icon} ${title}`;
-        panel.appendChild(heading);
+        const head = document.createElement("div");
+        head.className = "weekly-simple-title";
+        head.textContent = `${icon} ${title}`;
+        box.appendChild(head);
 
         const list = document.createElement("ul");
 
-        const items = values
+        let items = values
             ? (Array.isArray(values) ? values : [values])
             : [];
 
+        items = items
+            .map(v => String(v).trim())
+            .filter(v => v.length > 0);
+
         if (!items.length) {
-            const li = document.createElement("li");
-            li.textContent = "아직 없음";
-            list.appendChild(li);
+            const empty = document.createElement("div");
+            empty.className = "weekly-simple-empty";
+            empty.textContent = "아직 없음";
+            box.appendChild(empty);
+        } else {
+            for (const item of items) {
+                const li = document.createElement("li");
+                li.textContent = item;
+                list.appendChild(li);
+            }
+
+            box.appendChild(list);
         }
 
-        for (const value of items) {
-            const li = document.createElement("li");
-            li.textContent = value;
-            list.appendChild(li);
-        }
-
-        panel.appendChild(list);
-        bottom.appendChild(panel);
+        root.appendChild(box);
     }
 
-    makeList("이번 주 목표", "🎯", w.goals, "weekly-goals");
-    makeList("이번 주 성과", "🏆", w.outputs, "weekly-output");
-    makeList("막힌 것", "🚧", w.blockers, "weekly-blocker");
-
-    root.appendChild(bottom);
+    panel("🎯", "이번 주 목표", w.goals, "weekly-goals");
+    panel("🏆", "이번 주 성과", w.outputs, "weekly-outputs");
+    panel("🚧", "막힌 것", w.blockers, "weekly-blockers");
 }
 ```
+
 ## 📊 GROWTH
 
 ```dataviewjs
