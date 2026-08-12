@@ -1,0 +1,19 @@
+views:
+  - type: table
+    name: 표
+    filters:
+      and:
+        - file.inFolder("02 Study")
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    limit: 10
+  - type: list
+    name: 리스트
+    filters:
+      and:
+        - file.inFolder("02 Study")
+    markers: none
+    indentProperties: false

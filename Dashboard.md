@@ -16,6 +16,11 @@ actions:
 ```
 
 ---
+## 📝 최근 Daily ![[Recent Daily.base]]
+---
+## 🧠 최근 Study ![[Recent Study.base]]
+
+---
 ## 🚧 INFRA
 
 - [[02 Study/Infra/Network|🌐 Network]]

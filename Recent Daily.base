@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: 표
+    filters:
+      and:
+        - file.inFolder("01 Daily")
+    sort: []
+  - type: list
+    name: 리스트
+    filters:
+      and:
+        - file.inFolder("01 Daily")
+    order:
+      - file.name
+    markers: none
